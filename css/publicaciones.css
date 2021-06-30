@@ -63,3 +63,69 @@ nav .nav-right-section a {
 nav #ul-li--title {
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    min-height: 120px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+footer div {
+    justify-content: left;
+    min-height: 30px;
+    width: 50vw;
+    margin: auto 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+}
+
+footer div a {
+    margin-left: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+footer nav {
+    justify-content: flex-end;
+    height: 30px;
+    width: 50vw;
+    margin: auto 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer nav .footer-right-section {
+    min-width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav .footer-right-section a {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
