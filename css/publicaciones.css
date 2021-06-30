@@ -39,6 +39,7 @@ header nav {
     height: 30px;
     width: 50vw;
     margin-top: 10px;
+    margin-right: 10px;
     display: flex;
     justify-content: flex-end;
 }
