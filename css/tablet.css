@@ -26,6 +26,7 @@ header nav .nav-right-section {
 .main-section--datas {
     display: flex;
     flex-direction: row;
+    padding-right: 0;
 }
 
 .main-section--datas-ule {
@@ -55,6 +56,10 @@ main section .main-section--bio-spanish {
     margin-right: 50px;
 }
 
+main section .bio-spanish--title {
+    width: 100%;
+}
+
 main section .bio-spanish--text {
     width: 100%;
 }
@@ -64,6 +69,10 @@ main section .main-section--bio-english {
     width: calc(50vw - 100px);
     margin-left: 50px;
     margin-right: 50px;
+}
+
+main section .bio-english--title {
+    width: 100%;
 }
 
 main section .bio-english--text {
