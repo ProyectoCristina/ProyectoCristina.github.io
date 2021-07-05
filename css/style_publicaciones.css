@@ -33,7 +33,7 @@ header div {
     justify-content: center;
     min-height: 30px;
     margin: 10px auto;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     font-weight: bold;
 }
 
@@ -53,7 +53,14 @@ header nav .nav-right-section {
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+}
+
+header nav .section--pp {
+    margin-right: 14px;
+}
+
+header nav .section--p {
+    margin-right: 14px;
 }
 
 header nav .nav-right-section a {
@@ -68,7 +75,7 @@ nav #ul-li--title {
 }
 
 main h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin: 20px auto;
     text-align: center;
     padding-left: 15px;
@@ -84,36 +91,36 @@ main h1 {
 }
 
 .articles--article {
-    line-height: 1.4rem;
+    line-height: 1.7rem;
     margin-bottom: 35px;
 }
 
 .article--title {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
     padding-bottom: 5px;
 }
 
 .article--colaborators {
     padding-bottom: 5px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 500;
 }
 
 .article--place {
     padding-bottom: 10px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 500;
 }
 
 .articles--article ul {
     margin-left: 25px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .articles--article ul a {
     color: blue;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -132,7 +139,7 @@ footer div {
     justify-content: center;
     min-height: 30px;
     margin: 10px auto;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -152,7 +159,7 @@ footer div a {
     text-decoration: none;
     font-weight: 500;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 footer nav {
@@ -170,11 +177,22 @@ footer nav .footer-right-section {
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+}
+
+footer nav .footer--g {
+    margin-right: 14px;
+}
+
+footer nav .footer--t {
+    margin-right: 14px;
+}
+
+footer nav .footer--f {
+    margin-right: 14px;
 }
 
 footer nav .footer-right-section a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
     color: #000;

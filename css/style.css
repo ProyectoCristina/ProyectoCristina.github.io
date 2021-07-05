@@ -33,7 +33,7 @@ header div {
     justify-content: center;
     min-height: 30px;
     margin: 10px auto;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     font-weight: bold;
 }
 
@@ -53,7 +53,14 @@ header nav .nav-right-section {
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+}
+
+header nav .section--pp {
+    margin-right: 14px;
+}
+
+header nav .section--p {
+    margin-right: 14px;
 }
 
 header nav .nav-right-section a {
@@ -89,7 +96,7 @@ main section .main-section--backgroundImg {
 }
 
 main section .main-section--title {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -106,7 +113,7 @@ main section .main-section--datas .main-section--datas-ule {
 }
 
 main section .main-section--datas-ule .datas-ule--title {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
     color: #000;
     text-decoration: none;
@@ -117,7 +124,7 @@ main section .main-section--datas-ule .datas-ule--title {
 
 main section .datas-ule--container p {
     margin-left: 50px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -148,7 +155,7 @@ main section .main-section--datas .main-section--datas-profile {
 }
 
 main section .main-section--datas-profile .datas-profile--title {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
     color: #000;
     text-decoration: none;
@@ -159,7 +166,7 @@ main section .main-section--datas-profile .datas-profile--title {
 
 main section .datas-profile--container p {
     margin-left: 50px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -199,7 +206,7 @@ main section .bio-spanish--title {
     margin: 10px auto;
     padding-top: 20px;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -208,7 +215,7 @@ main section .bio-spanish--text {
     height: auto;
     margin: auto;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.6rem;
     font-weight: 500;
     padding-bottom: 30px;
@@ -225,7 +232,7 @@ main section .bio-english--title {
     margin: 10px auto;
     padding-top: 20px;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -234,7 +241,7 @@ main section .bio-english--text {
     height: auto;
     margin: auto;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.6rem;
     font-weight: 500;
     padding-bottom: 30px;
@@ -248,7 +255,7 @@ main section .bio-english--text {
 }
 
 .themes--container p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .main-section--cv {
@@ -259,7 +266,7 @@ main section .bio-english--text {
 }
 
 .main-section--cv p {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-align: center;
     color: blue;
 }
@@ -282,7 +289,7 @@ footer div {
     justify-content: center;
     min-height: 30px;
     margin: 10px auto;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -302,7 +309,7 @@ footer div a {
     text-decoration: none;
     font-weight: 500;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 footer nav {
@@ -320,11 +327,22 @@ footer nav .footer-right-section {
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+}
+
+footer nav .footer--g {
+    margin-right: 14px;
+}
+
+footer nav .footer--t {
+    margin-right: 14px;
+}
+
+footer nav .footer--f {
+    margin-right: 14px;
 }
 
 footer nav .footer-right-section a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
     color: #000;

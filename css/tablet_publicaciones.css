@@ -6,7 +6,7 @@ header div {
     justify-content: left;
     text-align: left;
     width: 50vw;
-    margin: 15px 15px 15px 25px;
+    margin: 15px 3px 15px 17px;
 }
 
 header nav {
@@ -20,7 +20,7 @@ header nav {
 }
 
 header nav .nav-right-section {
-    margin: 10px 15px 10px 0;
+    margin: 10px 10px 10px 0;
 }
 
 .wrapper {
