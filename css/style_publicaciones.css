@@ -92,7 +92,7 @@ main h1 {
 
 .articles--article {
     line-height: 1.7rem;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .article--title {
@@ -102,13 +102,13 @@ main h1 {
 }
 
 .article--colaborators {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 1.7rem;
     font-weight: 500;
 }
 
 .article--place {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     font-size: 1.7rem;
     font-weight: 500;
 }
@@ -116,6 +116,7 @@ main h1 {
 .articles--article ul {
     margin-left: 25px;
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .articles--article ul a {
