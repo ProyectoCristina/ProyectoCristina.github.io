@@ -1,0 +1,337 @@
+/* Orden para generar los estilos, no es obligatorio pero es buena práctica.
+1. Posicionamiento
+2. Modelo de caja (box model)
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: 60px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+header div {
+    justify-content: center;
+    min-height: 30px;
+    margin: 10px auto;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+header nav .nav-right-section {
+    min-width: 250px;
+    margin: 5px auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+header nav .nav-right-section a {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+
+nav #ul-li--title {
+    font-weight: bold;
+}
+
+
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section .main-section--backgroundImg {
+    width: 125px; height: 125px;
+    margin: 10px auto;
+    background-image: url("https://flr.flglobal.org/wp-content/uploads/2018/04/CrstinaMendana.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section .main-section--title {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+main .main-section--datas {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+main section .main-section--datas .main-section--datas-ule {
+    width: 90%;
+    height: auto;
+}
+
+main section .main-section--datas-ule .datas-ule--title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    width: 90%;
+    margin-left: 30px;
+    line-height: 3rem;
+}
+
+main section .datas-ule--container p {
+    margin-left: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+main section .datas-ule--container a {
+    font-weight: 500;
+    text-decoration: none;
+    color: blue;
+}
+
+main section .datas-ule--container-profesora {
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+main section .datas-ule--container-miembro {
+    padding-bottom: 10px;
+}
+
+main section .datas-ule--container-contacto {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/*------------------------------------------*/
+main section .main-section--datas .main-section--datas-profile {
+    width: 90%;
+    height: auto;
+}
+
+main section .main-section--datas-profile .datas-profile--title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    width: 90%;
+    margin-left: 30px;
+    line-height: 3rem;
+}
+
+main section .datas-profile--container p {
+    margin-left: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+main section .datas-profile--container a {
+    font-weight: 500;
+    text-decoration: none;
+    color: blue;
+}
+
+main section .datas-profile--container-perfiles {
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+main section .datas-profile--container-codigos {
+    padding-bottom: 10px;
+}
+
+main section .datas-profile--container-repositorios {
+    padding-bottom: 10px;
+}
+
+main section .datas-profile--container-otros {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/*-------------*/
+main section .main-section--bio .main-section--bio-spanish {
+    width: 80%;
+    height: auto;
+}
+
+main section .bio-spanish--title {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+main section .bio-spanish--text {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+main section .main-section--bio .main-section--bio-english {
+    width: 80%;
+    height: auto;
+}
+
+main section .bio-english--title {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+main section .bio-english--text {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.themes--container  {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+.themes--container p {
+    font-size: 1.2rem;
+}
+
+.main-section--cv {
+    width: 80%;
+    height: auto;
+    margin: 5px auto;
+    padding-bottom: 20px;
+}
+
+.main-section--cv p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: blue;
+}
+
+.main-section--cv a {
+    color: blue;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction: column;
+}
+
+
+footer div {
+    justify-content: center;
+    min-height: 30px;
+    margin: 10px auto;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+footer .footer-main-container {
+    padding-bottom: 15px;
+}
+
+footer .footer-left--title {
+    text-align: center;
+}
+
+footer div div .footer-left--subtitle {
+    text-align: center;
+}
+
+footer div a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 1.2rem;
+}
+
+footer nav {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav .footer-right-section {
+    min-width: 250px;
+    margin: 5px auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+footer nav .footer-right-section a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+

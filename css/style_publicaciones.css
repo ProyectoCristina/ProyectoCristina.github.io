@@ -18,44 +18,45 @@ html {
 }
 
 header {
+    position: relative;
     width: 100%;
     min-height: 60px;
     padding-top: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     background-color: #f2f2f2;
 }
 
 header div {
-    justify-content: left;
-    height: 30px;
-    width: 50vw;
-    margin: 15px 15px 15px 25px;
+    justify-content: center;
+    min-height: 30px;
+    margin: 10px auto;
     font-size: 1.8rem;
     font-weight: bold;
 }
 
 header nav {
-    justify-content: flex-end;
-    height: 30px;
-    width: 50vw;
-    margin-top: 10px;
-    margin-right: 10px;
+    min-height: 30px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 10px;
 }
 
 header nav .nav-right-section {
     min-width: 250px;
+    margin: 5px auto;
     height: auto;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
+    gap: 14px;
 }
 
 header nav .nav-right-section a {
-    margin-right: 10px;
-    padding: 5px;
     font-size: 1.4rem;
     font-weight: 400;
     text-decoration: none;
@@ -75,7 +76,6 @@ nav #ul-li--title {
 
 
 
-
 footer {
     width: 100%;
     min-height: 120px;
@@ -83,48 +83,58 @@ footer {
     bottom: 0;
     display: flex;
     background-color: #f2f2f2;
+    flex-direction: column;
 }
 
+
 footer div {
-    justify-content: left;
+    justify-content: center;
     min-height: 30px;
-    width: 50vw;
-    margin: auto 50px;
+    margin: 10px auto;
     font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 2.2rem;
+    font-weight: 700;
+}
+
+footer .footer-main-container {
+    padding-bottom: 15px;
+}
+
+footer .footer-left--title {
+    text-align: center;
+}
+
+footer div div .footer-left--subtitle {
+    text-align: center;
 }
 
 footer div a {
-    margin-left: 18px;
     text-decoration: none;
     font-weight: 500;
     color: black;
+    font-size: 1.2rem;
 }
 
 footer nav {
-    justify-content: flex-end;
-    height: 30px;
-    width: 50vw;
-    margin: auto 15px;
+    min-height: 30px;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 footer nav .footer-right-section {
     min-width: 250px;
+    margin: 5px auto;
     height: auto;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
+    gap: 14px;
 }
 
 footer nav .footer-right-section a {
-    margin-right: 10px;
-    padding: 5px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     text-decoration: none;
-    color: black;
+    color: #000;
 }
