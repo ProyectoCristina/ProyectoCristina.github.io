@@ -71,16 +71,9 @@ nav #ul-li--title {
 
 
 
-
-
-
-
-
 footer {
     width: 100%;
-    min-height: 120px;
-    position: absolute;
-    bottom: 0;
+    min-height: 130px;
     display: flex;
     background-color: #f2f2f2;
     flex-direction: column;
@@ -137,4 +130,8 @@ footer nav .footer-right-section a {
     font-weight: 400;
     text-decoration: none;
     color: #000;
+}
+
+main {
+    min-height: calc(100vh - 77px - 115px);
 }
