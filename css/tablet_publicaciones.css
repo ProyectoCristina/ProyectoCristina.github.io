@@ -23,10 +23,20 @@ header nav .nav-right-section {
     margin: 10px 15px 10px 0;
 }
 
+.wrapper {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-
-
-
+.articles--article {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
 
 
 footer {

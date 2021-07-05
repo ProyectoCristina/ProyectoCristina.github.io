@@ -67,6 +67,54 @@ nav #ul-li--title {
     font-weight: bold;
 }
 
+main h1 {
+    font-size: 2rem;
+    margin: 20px auto;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wrapper {
+    width: 85%;
+    height: auto;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles--article {
+    line-height: 1.4rem;
+    margin-bottom: 35px;
+}
+
+.article--title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.article--colaborators {
+    padding-bottom: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.article--place {
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.articles--article ul {
+    margin-left: 25px;
+    font-size: 1.2rem;
+}
+
+.articles--article ul a {
+    color: blue;
+    font-size: 1.2rem;
+}
 
 
 
