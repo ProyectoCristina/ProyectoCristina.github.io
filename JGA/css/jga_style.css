@@ -87,9 +87,9 @@ main section {
 }
 
 main section .main-section--backgroundImg {
-    width: 125px; height: 125px;
+    width: 159px; height: 239px;
     margin: 10px auto;
-    background-image: url("../../images/menu.png");
+    background-image: url("../images/foto_presidente_gilaluja_not2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
