@@ -113,6 +113,7 @@ main section .main-section--datas .main-section--datas-ule {
 }
 
 main section .main-section--datas-ule .datas-ule--title {
+    display: flex;
     font-size: 1.7rem;
     font-weight: 700;
     color: #000;

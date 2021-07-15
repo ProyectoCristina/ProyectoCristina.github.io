@@ -23,26 +23,34 @@ header nav .nav-right-section {
     margin: 10px 10px 10px 0;
 }
 
-.main-section--datas {
-    display: flex;
-    flex-direction: row;
+main .main-section--datas {
     padding-right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .main-section--datas-ule {
-    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(5px, 65px) 1fr;
 }
 
 main section .main-section--datas-ule .datas-ule--title {
-    margin-left: calc(50% - 80px);
+    margin: auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .main-section--datas-profile {
-    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(5px, 65px) 1fr;
 }
 
 main section .main-section--datas-profile .datas-profile--title {
-    margin-left: calc(50% - 30px);
+    margin: auto;
+    text-align: center;
 }
 
 .main-section--bio {
