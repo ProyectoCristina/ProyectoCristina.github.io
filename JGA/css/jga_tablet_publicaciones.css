@@ -1,0 +1,78 @@
+header {
+    flex-direction: row;
+}
+
+header div {
+    justify-content: left;
+    text-align: left;
+    width: 50vw;
+    margin: 15px 3px 15px 17px;
+}
+
+header nav {
+    justify-content: flex-end;
+    width: 50vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+
+header nav .nav-right-section {
+    margin: 10px 10px 10px 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.articles--article {
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+
+
+footer {
+    flex-direction: row;
+    min-height: 100px;
+}
+
+footer div {
+    width: 50vw;
+    justify-content: left;
+    padding-left: 15px;
+}
+
+.footer-left-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer-left--title {
+    text-align: left;
+    padding-right: 15px;
+}
+
+footer div div .footer-left--subtitle {
+    text-align: left;
+}
+
+footer div a {
+    margin-left: 15px;
+}
+
+
+footer .footer-main-container {
+    padding-bottom: 0;
+}
+
+footer nav .footer-right-section {
+    margin: 5px 15px 5px auto;
+}
